@@ -1,0 +1,38 @@
+# Git
+.git
+.gitignore
+
+# Node
+Frontend/node_modules
+Frontend/.env.local
+Frontend/.env.*.local
+
+# Python
+Backend/__pycache__
+Backend/.venv
+Backend/**/__pycache__
+Backend/**/*.pyc
+**/*.pyc
+**/__pycache__
+
+# Dev / IDE
+.vscode
+.agents
+*.log
+*.tmp
+
+# Test artifacts
+Backend/tests/__pycache__
+.pytest_cache
+
+# Jupyter
+*.ipynb
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep: Railsync_Layer1_Complete/*.csv (model artifacts needed at runtime)
+# Keep: Railsync_Layer2_Outputs/*.csv
+# Keep: Railsync_2.0_Layer_0_FINAL/*.csv
