@@ -3,8 +3,8 @@ title: RailSync 2.0
 emoji: 🚂
 colorFrom: blue
 colorTo: indigo
-sdk: docker
-app_port: 7860
+sdk: gradio
+
 tags:
   - railway
   - indian-railways
